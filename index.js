@@ -9,7 +9,7 @@ require('dotenv').config()
 // middleware
 app.use(express.json());
 app.use(cors({
-  origin: ['https://book-store-frontend-sigma-silk.vercel.app'],
+  origin: ['http://localhost:5173', 'https://book-store-frontend-olive-sigma.vercel.app/'],
   credentials: true
 }))
 
